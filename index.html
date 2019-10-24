@@ -86,6 +86,17 @@
                 <div class="card">
                     <div class="card-title">
                         <h1>Enter your details here.</h1>
+                        <div class="card-body">
+                            <form class="needs-validation" novalidate id="myform">
+                                <div class="form-group">
+                                    <Label for="year">Enter year you were born</Label>
+                                    <input type="number" class="form-control" id="year" placeholder="e.g 1964" min="1900" max="2024" value="" required />
+                                    <div class="invalid-feedback">
+                                        Enter valid year
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
 
                 </div>
